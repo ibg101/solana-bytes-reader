@@ -1,0 +1,10 @@
+[package]
+name = "solana-bytes-reader"
+version = "0.1.0"
+edition = "2021"
+description = "Utility library for bytes reinterpretation."
+repository = "https://github.com/ibg101/solana-bytes-reader"
+authors = ["Ivan Bets <ivan.bets17@gmail.com>"]
+
+[dependencies]
+solana-program-error = "2.2.2"
