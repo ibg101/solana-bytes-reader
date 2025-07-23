@@ -4,6 +4,9 @@ version = "0.1.0"
 edition = "2021"
 description = "Utility library for bytes reinterpretation."
 repository = "https://github.com/ibg101/solana-bytes-reader"
+readme = "README.md"
+license = "MIT OR Apache-2.0"
+keywords = ["bytes-reader", "bytes", "solana-bytes", "solana-utils"]
 authors = ["Ivan Bets <ivan.bets17@gmail.com>"]
 
 [dependencies]
