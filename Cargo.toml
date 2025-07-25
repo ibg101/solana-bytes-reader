@@ -1,6 +1,6 @@
 [package]
 name = "solana-bytes-reader"
-version = "0.2.0"
+version = "0.2.1"
 edition = "2021"
 description = "Utility library for bytes reinterpretation."
 repository = "https://github.com/ibg101/solana-bytes-reader"

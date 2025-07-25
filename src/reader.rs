@@ -55,7 +55,12 @@ impl<'a> Reader<'a> {
         assert!(len > offset && len > 0);
         Self { bytes, offset }
     }
-    
+
+    #[inline]
+    pub fn bytes(&self) -> &'a [u8] {
+        self.bytes
+    }
+
     #[inline]
     pub fn offset(&self) -> usize {
         self.offset
